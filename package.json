@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/Androz2091/discord-player#readme",
   "dependencies": {
-    "ffmpeg-static": "^3.0.0",
+    "ffmpeg-static": "^4.0.0",
     "merge-options": "^2.0.0",
     "simple-youtube-api": "^5.2.1",
     "ytdl-core": "^1.0.6"
