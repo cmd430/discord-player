@@ -66,6 +66,7 @@ class Player {
             // Search for a queue for this channel
             let queue = this.queues.find((g) => g.connection.channel.id === oldState.channelID);
             if(queue){
+                if (queue.connection.channel.members.size > 1) return;
                 // Disconnect from the voice channel
                 queue.connection.channel.leave();
                 // Delete the queue
